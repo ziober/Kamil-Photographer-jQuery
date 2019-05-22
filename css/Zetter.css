@@ -1,0 +1,163 @@
+@import 'https://www.w3.org/Style/Examples/007/fonts.pl.html';
+
+body{
+    background-color: #eee;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: gray;
+    }
+#container{
+    width: 90%;
+    padding: 100px 0 100px 0;
+    margin: auto;
+    overflow: hidden;
+}
+#slider{
+    width: 96%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    border: 2px solid #666;
+    border-radius: 3px;
+
+}
+#prev, #next{
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+}
+#prev{
+    margin-right: -45px;
+}
+#next{
+    margin-left: -45px;
+}
+.animation{
+    width: 93%;
+    padding: 0 1% 0 1%;
+    margin: 0 0 0 3%;
+}
+.slide{
+    position: relative;
+    width: auto;
+    height: 500px;
+
+}
+div{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+li{
+    display: inline;
+    margin: 0;
+    padding: 15px;
+    text-decoration: none;
+}
+#KamilZeter{
+    font-family: 'Snell Roundhand serif';
+    font-style: oblique;
+    font-size: 35px;
+    margin: 0;
+    padding: 0px 40px 0px 40px;
+}
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.pierwszytext{
+    text-align: center;
+    margin: 5%;
+}
+.pierwszytext div {
+    display: block;
+}
+.pierwszytext div p{
+    margin: 3% 25% 0% 25%;
+    font-size: 25px;
+}
+.kontakt{
+    margin: 5%;
+}
+#wybierz{
+    background-color: lightgrey;
+}
+.wybierz{
+    background-color: lightgrey;
+}
+p {
+    font-size: 25px;
+}
+#left_column {
+    width: 30%;
+    float: left;
+    padding: 0 1% 0;
+}
+#center_column {
+    width: 30%;
+    float: left;
+    padding: 0 1% 0;
+}
+#right_column {
+    width: 30%;
+    float: left;
+    padding: 0 1% 0;
+}
+p img{
+    width: 320px;
+    height: 240px;
+}
+.insta{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+.instagram img{
+    border-radius: 100%;
+    width: 90px;
+}
+#stopka{
+    background-color: bisque;
+    display: -ms-grid;
+    width: 100%;
+}
+#stopka p{
+    margin: 10px 0 0 0;
+    padding: 10px 0 10px 0;
+}
+div i{
+    margin: 5% 0 0 0;
+
+}
+i{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color:#808080;
+}
+a:visited {
+    color:#808080;
+}
+.container{
+    width: 80%;
+    background: #eee;
+    margin: auto;
+    overflow: hidden;
+}
+.showcase1{
+    min-height: 600px;
+    background: url("../img/foto1.jpg") no-repeat 0 -150px;
+    text-align: center;
+    color:white;
+}
